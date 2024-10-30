@@ -1,5 +1,7 @@
-import { useState } from "react";
+import React from "react";
 import "./App.css";
+
+import { useState } from "react";
 
 function App() {
   const [vaqtT1, setVaqtT1] = useState(""); // t1 vaqt qiymatini saqlash
